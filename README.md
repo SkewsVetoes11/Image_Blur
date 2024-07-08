@@ -7,3 +7,9 @@ image source: https://www.pexels.com/photo/shallow-focus-photography-of-red-appl
 
 # Libraries
 The GUI is built with Tkinter and Pillow handles the image processing.
+
+# Packaging
+To package the .py file into .exe, run:
+```
+pyinstaller --onefile image_blur.py
+```
